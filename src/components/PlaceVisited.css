@@ -1,0 +1,48 @@
+.place {
+  display: flex;
+  gap: 1.2em
+}
+
+.place > img {
+  width: 7.8em;
+  height: 10.5em;
+  margin: 1.1em 0;
+  border-radius: 0.5em;
+}
+
+.place__place-info {
+  margin: 1.1em 0;
+}
+
+.place__place-location {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 0.6em;
+}
+
+.place__place-location > p {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.place__place-location > a {
+  color: #918E9B;
+}
+
+.place__place-title {
+  margin: 0;
+  color: #2B283A;
+  padding-bottom: 0.7em;
+}
+
+.place__place-duration {
+  color: #2B283A;
+  margin: 0;
+}
+
+.place__place-description {
+  /* margin: 0; */
+  color: #2B283A;
+  font-size: 0.6em;
+}
